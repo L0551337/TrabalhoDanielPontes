@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom, bisque,lightgray,pink);
+    font-family: "JetBrains Mono";
+    text-align: center;
+}
+
+main{
+    margin: auto;
+    text-align: justify;
+    max-width: 700px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover{
+    background-color: pink;
+}
+
+header{
+    padding-bottom: 10px;
+}
+
+section#form{
+    padding: 50px;
+}
+
+div.form{
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    max-width: fit-content;
+    margin-inline: auto;
+    
+}
+
+div.card{
+    margin-inline: 8px;
+    display: inline-block;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.35);
+    width: 300px;
+    height: 300px;
+    border: 2px solid #ddd;
+}
+
+div.card p{
+    padding-bottom: 10px;
+}
+
+div.card a{
+    border: 1px solid lightgray;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px pink;
+}
+
+div.card a:hover{
+    background-color: pink;
+}

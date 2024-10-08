@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probabilidade de Evasão Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Rendimento Escolar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre Nós</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="form">
+            <h2>Insira os Dados</h2>
+            <div class="form">
+                <form>
+                    <label for="matricula">Matriculas:</label>
+                    <input type="number" id="matricula" name="matricula" required>
+                    <br>
+                    <label for="apr">Aprovados: </label>
+                    <input type="number" id="apr" name="apr" required>
+                    <br>
+                    <label for="rep">Reprovados: </label>
+                    <input type="number" id="rep" name="rep" required>
+                    <br>
+                    <label for="family_support">Abandonos:</label>
+                    <input type="number" id="family_support" name="family_support" required>
+                    <br>
+                    <button type="submit">Calcular</button>
+                </form>
+            </div>
+        </section>
+        <section id="result">
+            <h2>Resultado</h2>
+            <p id="output">Aguardando dados...</p>
+        </section>
+    </main>
+</body>
+</html>
